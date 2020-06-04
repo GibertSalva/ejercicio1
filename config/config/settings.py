@@ -31,13 +31,17 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'suit',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "biblioteca"
+    "biblioteca",
+    
+    
+
 ]
 
 MIDDLEWARE = [
@@ -119,3 +123,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+JET_PROJECT = 'hi_16'
+JET_TOKEN = '20a05f49-52c9-4015-ab72-9332dc0c8732'
