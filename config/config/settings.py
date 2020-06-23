@@ -127,3 +127,7 @@ STATIC_URL = '/static/'
 
 JET_PROJECT = 'hi_16'
 JET_TOKEN = '20a05f49-52c9-4015-ab72-9332dc0c8732'
+
+SUIT_CONFIG = {
+    'ADMIN_NAME': 'Salvador'
+}
